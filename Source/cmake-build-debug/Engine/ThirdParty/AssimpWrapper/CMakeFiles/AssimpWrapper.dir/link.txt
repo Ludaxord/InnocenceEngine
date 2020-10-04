@@ -1,0 +1,2 @@
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ar qc ../../../LibArchive/libAssimpWrapper.a  CMakeFiles/AssimpWrapper.dir/AssimpWrapper.cpp.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ranlib ../../../LibArchive/libAssimpWrapper.a

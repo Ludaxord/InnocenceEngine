@@ -1,0 +1,2 @@
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ar qc ../../../LibArchive/libJSONWrapper.a  CMakeFiles/JSONWrapper.dir/JSONWrapper.cpp.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ranlib ../../../LibArchive/libJSONWrapper.a

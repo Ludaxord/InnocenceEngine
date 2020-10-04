@@ -1,0 +1,1396 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="InnocenceEngine"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\Engine\;CMake Files\Engine\Common\;CMake Files\Engine\ThirdParty\;CMake Files\Engine\ThirdParty\JSONWrapper\;CMake Files\Engine\ThirdParty\AssimpWrapper\;CMake Files\Engine\ThirdParty\STBWrapper\;CMake Files\Engine\ThirdParty\ImGui\;CMake Files\Engine\ThirdParty\ImGuiWrapper\;CMake Files\Engine\Core\;CMake Files\Engine\SubSystem\;CMake Files\Engine\RenderingFrontend\;CMake Files\Engine\RenderingServer\;CMake Files\Engine\RenderingServer\MT\;CMake Files\Engine\RayTracer\;CMake Files\Engine\EntityManager\;CMake Files\Engine\ComponentManager\;CMake Files\Engine\SceneHierarchyManager\;CMake Files\Engine\ModuleManager\;CMake Files\Test\;CMake Files\Client\;CMake Files\Client\DefaultGPUBuffers\;CMake Files\Client\RenderingClient\;CMake Files\Client\LogicClient\;CMake Files\Client\Tool\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="InnoTest">
+				<Option output="/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Bin/InnoTest" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/../Bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/External/Include"/>
+					<Add directory="/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/External/GitSubmodules"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.3/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/cmake-build-debug/Test/Makefile&quot;  VERBOSE=1 InnoTest"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/cmake-build-debug/Test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/cmake-build-debug/Test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/cmake-build-debug/Test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="InnoTest/fast">
+				<Option output="/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Bin/InnoTest" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/../Bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/External/Include"/>
+					<Add directory="/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/External/GitSubmodules"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.3/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/cmake-build-debug/Test/Makefile&quot;  VERBOSE=1 InnoTest/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/cmake-build-debug/Test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/cmake-build-debug/Test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/cmake-build-debug/Test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="JSONWrapper">
+				<Option output="/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/cmake-build-debug/LibArchive/libJSONWrapper.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/cmake-build-debug/Engine/ThirdParty/JSONWrapper"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/External/Include"/>
+					<Add directory="/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/External/GitSubmodules"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.3/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/cmake-build-debug/Engine/ThirdParty/JSONWrapper/Makefile&quot;  VERBOSE=1 JSONWrapper"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/cmake-build-debug/Engine/ThirdParty/JSONWrapper/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/cmake-build-debug/Engine/ThirdParty/JSONWrapper/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/cmake-build-debug/Engine/ThirdParty/JSONWrapper/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="JSONWrapper/fast">
+				<Option output="/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/cmake-build-debug/LibArchive/libJSONWrapper.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/cmake-build-debug/Engine/ThirdParty/JSONWrapper"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/External/Include"/>
+					<Add directory="/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/External/GitSubmodules"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.3/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/cmake-build-debug/Engine/ThirdParty/JSONWrapper/Makefile&quot;  VERBOSE=1 JSONWrapper/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/cmake-build-debug/Engine/ThirdParty/JSONWrapper/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/cmake-build-debug/Engine/ThirdParty/JSONWrapper/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/cmake-build-debug/Engine/ThirdParty/JSONWrapper/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="AssimpWrapper">
+				<Option output="/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/cmake-build-debug/LibArchive/libAssimpWrapper.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/cmake-build-debug/Engine/ThirdParty/AssimpWrapper"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/External/Include"/>
+					<Add directory="/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/External/GitSubmodules"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.3/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/cmake-build-debug/Engine/ThirdParty/AssimpWrapper/Makefile&quot;  VERBOSE=1 AssimpWrapper"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/cmake-build-debug/Engine/ThirdParty/AssimpWrapper/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/cmake-build-debug/Engine/ThirdParty/AssimpWrapper/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/cmake-build-debug/Engine/ThirdParty/AssimpWrapper/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="AssimpWrapper/fast">
+				<Option output="/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/cmake-build-debug/LibArchive/libAssimpWrapper.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/cmake-build-debug/Engine/ThirdParty/AssimpWrapper"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/External/Include"/>
+					<Add directory="/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/External/GitSubmodules"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.3/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/cmake-build-debug/Engine/ThirdParty/AssimpWrapper/Makefile&quot;  VERBOSE=1 AssimpWrapper/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/cmake-build-debug/Engine/ThirdParty/AssimpWrapper/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/cmake-build-debug/Engine/ThirdParty/AssimpWrapper/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/cmake-build-debug/Engine/ThirdParty/AssimpWrapper/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="STBWrapper">
+				<Option output="/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/cmake-build-debug/LibArchive/libSTBWrapper.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/cmake-build-debug/Engine/ThirdParty/STBWrapper"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/External/Include"/>
+					<Add directory="/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/External/GitSubmodules"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.3/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/cmake-build-debug/Engine/ThirdParty/STBWrapper/Makefile&quot;  VERBOSE=1 STBWrapper"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/cmake-build-debug/Engine/ThirdParty/STBWrapper/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/cmake-build-debug/Engine/ThirdParty/STBWrapper/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/cmake-build-debug/Engine/ThirdParty/STBWrapper/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="STBWrapper/fast">
+				<Option output="/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/cmake-build-debug/LibArchive/libSTBWrapper.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/cmake-build-debug/Engine/ThirdParty/STBWrapper"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/External/Include"/>
+					<Add directory="/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/External/GitSubmodules"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.3/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/cmake-build-debug/Engine/ThirdParty/STBWrapper/Makefile&quot;  VERBOSE=1 STBWrapper/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/cmake-build-debug/Engine/ThirdParty/STBWrapper/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/cmake-build-debug/Engine/ThirdParty/STBWrapper/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/cmake-build-debug/Engine/ThirdParty/STBWrapper/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ImGui">
+				<Option output="/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/cmake-build-debug/LibArchive/libImGui.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/cmake-build-debug/Engine/ThirdParty/ImGui"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/External/Include"/>
+					<Add directory="/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/External/GitSubmodules"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.3/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/cmake-build-debug/Engine/ThirdParty/ImGui/Makefile&quot;  VERBOSE=1 ImGui"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/cmake-build-debug/Engine/ThirdParty/ImGui/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/cmake-build-debug/Engine/ThirdParty/ImGui/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/cmake-build-debug/Engine/ThirdParty/ImGui/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ImGui/fast">
+				<Option output="/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/cmake-build-debug/LibArchive/libImGui.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/cmake-build-debug/Engine/ThirdParty/ImGui"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/External/Include"/>
+					<Add directory="/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/External/GitSubmodules"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.3/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/cmake-build-debug/Engine/ThirdParty/ImGui/Makefile&quot;  VERBOSE=1 ImGui/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/cmake-build-debug/Engine/ThirdParty/ImGui/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/cmake-build-debug/Engine/ThirdParty/ImGui/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/cmake-build-debug/Engine/ThirdParty/ImGui/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ImGuiRendererMT">
+				<Option output="/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/cmake-build-debug/LibArchive/libImGuiRendererMT.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/cmake-build-debug/Engine/ThirdParty/ImGuiWrapper"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/External/Include"/>
+					<Add directory="/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/External/GitSubmodules"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.3/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/cmake-build-debug/Engine/ThirdParty/ImGuiWrapper/Makefile&quot;  VERBOSE=1 ImGuiRendererMT"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/cmake-build-debug/Engine/ThirdParty/ImGuiWrapper/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/cmake-build-debug/Engine/ThirdParty/ImGuiWrapper/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/cmake-build-debug/Engine/ThirdParty/ImGuiWrapper/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ImGuiRendererMT/fast">
+				<Option output="/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/cmake-build-debug/LibArchive/libImGuiRendererMT.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/cmake-build-debug/Engine/ThirdParty/ImGuiWrapper"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/External/Include"/>
+					<Add directory="/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/External/GitSubmodules"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.3/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/cmake-build-debug/Engine/ThirdParty/ImGuiWrapper/Makefile&quot;  VERBOSE=1 ImGuiRendererMT/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/cmake-build-debug/Engine/ThirdParty/ImGuiWrapper/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/cmake-build-debug/Engine/ThirdParty/ImGuiWrapper/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/cmake-build-debug/Engine/ThirdParty/ImGuiWrapper/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ImGuiWrapper">
+				<Option output="/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/cmake-build-debug/LibArchive/libImGuiWrapper.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/cmake-build-debug/Engine/ThirdParty/ImGuiWrapper"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/External/Include"/>
+					<Add directory="/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/External/GitSubmodules"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.3/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/cmake-build-debug/Engine/ThirdParty/ImGuiWrapper/Makefile&quot;  VERBOSE=1 ImGuiWrapper"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/cmake-build-debug/Engine/ThirdParty/ImGuiWrapper/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/cmake-build-debug/Engine/ThirdParty/ImGuiWrapper/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/cmake-build-debug/Engine/ThirdParty/ImGuiWrapper/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ImGuiWrapper/fast">
+				<Option output="/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/cmake-build-debug/LibArchive/libImGuiWrapper.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/cmake-build-debug/Engine/ThirdParty/ImGuiWrapper"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/External/Include"/>
+					<Add directory="/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/External/GitSubmodules"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.3/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/cmake-build-debug/Engine/ThirdParty/ImGuiWrapper/Makefile&quot;  VERBOSE=1 ImGuiWrapper/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/cmake-build-debug/Engine/ThirdParty/ImGuiWrapper/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/cmake-build-debug/Engine/ThirdParty/ImGuiWrapper/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/cmake-build-debug/Engine/ThirdParty/ImGuiWrapper/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="InnoCore">
+				<Option output="/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/cmake-build-debug/LibArchive/libInnoCore.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/cmake-build-debug/Engine/Core"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/External/Include"/>
+					<Add directory="/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/External/GitSubmodules"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.3/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/cmake-build-debug/Engine/Core/Makefile&quot;  VERBOSE=1 InnoCore"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/cmake-build-debug/Engine/Core/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/cmake-build-debug/Engine/Core/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/cmake-build-debug/Engine/Core/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="InnoCore/fast">
+				<Option output="/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/cmake-build-debug/LibArchive/libInnoCore.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/cmake-build-debug/Engine/Core"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/External/Include"/>
+					<Add directory="/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/External/GitSubmodules"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.3/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/cmake-build-debug/Engine/Core/Makefile&quot;  VERBOSE=1 InnoCore/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/cmake-build-debug/Engine/Core/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/cmake-build-debug/Engine/Core/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/cmake-build-debug/Engine/Core/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="InnoSubSystem">
+				<Option output="/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/cmake-build-debug/LibArchive/libInnoSubSystem.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/cmake-build-debug/Engine/SubSystem"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/External/Include"/>
+					<Add directory="/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/External/GitSubmodules"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.3/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/cmake-build-debug/Engine/SubSystem/Makefile&quot;  VERBOSE=1 InnoSubSystem"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/cmake-build-debug/Engine/SubSystem/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/cmake-build-debug/Engine/SubSystem/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/cmake-build-debug/Engine/SubSystem/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="InnoSubSystem/fast">
+				<Option output="/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/cmake-build-debug/LibArchive/libInnoSubSystem.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/cmake-build-debug/Engine/SubSystem"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/External/Include"/>
+					<Add directory="/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/External/GitSubmodules"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.3/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/cmake-build-debug/Engine/SubSystem/Makefile&quot;  VERBOSE=1 InnoSubSystem/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/cmake-build-debug/Engine/SubSystem/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/cmake-build-debug/Engine/SubSystem/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/cmake-build-debug/Engine/SubSystem/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="InnoRenderingFrontend">
+				<Option output="/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/cmake-build-debug/LibArchive/libInnoRenderingFrontend.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/cmake-build-debug/Engine/RenderingFrontend"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/External/Include"/>
+					<Add directory="/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/External/GitSubmodules"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.3/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/cmake-build-debug/Engine/RenderingFrontend/Makefile&quot;  VERBOSE=1 InnoRenderingFrontend"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/cmake-build-debug/Engine/RenderingFrontend/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/cmake-build-debug/Engine/RenderingFrontend/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/cmake-build-debug/Engine/RenderingFrontend/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="InnoRenderingFrontend/fast">
+				<Option output="/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/cmake-build-debug/LibArchive/libInnoRenderingFrontend.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/cmake-build-debug/Engine/RenderingFrontend"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/External/Include"/>
+					<Add directory="/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/External/GitSubmodules"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.3/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/cmake-build-debug/Engine/RenderingFrontend/Makefile&quot;  VERBOSE=1 InnoRenderingFrontend/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/cmake-build-debug/Engine/RenderingFrontend/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/cmake-build-debug/Engine/RenderingFrontend/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/cmake-build-debug/Engine/RenderingFrontend/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="InnoMTRenderingServer">
+				<Option output="/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/cmake-build-debug/LibArchive/libInnoMTRenderingServer.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/cmake-build-debug/Engine/RenderingServer/MT"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/External/Include"/>
+					<Add directory="/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/External/GitSubmodules"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.3/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/cmake-build-debug/Engine/RenderingServer/MT/Makefile&quot;  VERBOSE=1 InnoMTRenderingServer"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/cmake-build-debug/Engine/RenderingServer/MT/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/cmake-build-debug/Engine/RenderingServer/MT/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/cmake-build-debug/Engine/RenderingServer/MT/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="InnoMTRenderingServer/fast">
+				<Option output="/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/cmake-build-debug/LibArchive/libInnoMTRenderingServer.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/cmake-build-debug/Engine/RenderingServer/MT"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/External/Include"/>
+					<Add directory="/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/External/GitSubmodules"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.3/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/cmake-build-debug/Engine/RenderingServer/MT/Makefile&quot;  VERBOSE=1 InnoMTRenderingServer/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/cmake-build-debug/Engine/RenderingServer/MT/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/cmake-build-debug/Engine/RenderingServer/MT/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/cmake-build-debug/Engine/RenderingServer/MT/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="InnoRayTracer">
+				<Option output="/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/cmake-build-debug/LibArchive/libInnoRayTracer.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/cmake-build-debug/Engine/RayTracer"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/External/Include"/>
+					<Add directory="/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/External/GitSubmodules"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.3/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/cmake-build-debug/Engine/RayTracer/Makefile&quot;  VERBOSE=1 InnoRayTracer"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/cmake-build-debug/Engine/RayTracer/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/cmake-build-debug/Engine/RayTracer/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/cmake-build-debug/Engine/RayTracer/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="InnoRayTracer/fast">
+				<Option output="/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/cmake-build-debug/LibArchive/libInnoRayTracer.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/cmake-build-debug/Engine/RayTracer"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/External/Include"/>
+					<Add directory="/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/External/GitSubmodules"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.3/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/cmake-build-debug/Engine/RayTracer/Makefile&quot;  VERBOSE=1 InnoRayTracer/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/cmake-build-debug/Engine/RayTracer/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/cmake-build-debug/Engine/RayTracer/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/cmake-build-debug/Engine/RayTracer/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="InnoEntityManager">
+				<Option output="/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/cmake-build-debug/LibArchive/libInnoEntityManager.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/cmake-build-debug/Engine/EntityManager"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/External/Include"/>
+					<Add directory="/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/External/GitSubmodules"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.3/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/cmake-build-debug/Engine/EntityManager/Makefile&quot;  VERBOSE=1 InnoEntityManager"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/cmake-build-debug/Engine/EntityManager/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/cmake-build-debug/Engine/EntityManager/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/cmake-build-debug/Engine/EntityManager/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="InnoEntityManager/fast">
+				<Option output="/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/cmake-build-debug/LibArchive/libInnoEntityManager.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/cmake-build-debug/Engine/EntityManager"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/External/Include"/>
+					<Add directory="/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/External/GitSubmodules"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.3/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/cmake-build-debug/Engine/EntityManager/Makefile&quot;  VERBOSE=1 InnoEntityManager/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/cmake-build-debug/Engine/EntityManager/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/cmake-build-debug/Engine/EntityManager/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/cmake-build-debug/Engine/EntityManager/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="InnoComponentManager">
+				<Option output="/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/cmake-build-debug/LibArchive/libInnoComponentManager.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/cmake-build-debug/Engine/ComponentManager"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/External/Include"/>
+					<Add directory="/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/External/GitSubmodules"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.3/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/cmake-build-debug/Engine/ComponentManager/Makefile&quot;  VERBOSE=1 InnoComponentManager"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/cmake-build-debug/Engine/ComponentManager/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/cmake-build-debug/Engine/ComponentManager/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/cmake-build-debug/Engine/ComponentManager/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="InnoComponentManager/fast">
+				<Option output="/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/cmake-build-debug/LibArchive/libInnoComponentManager.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/cmake-build-debug/Engine/ComponentManager"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/External/Include"/>
+					<Add directory="/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/External/GitSubmodules"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.3/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/cmake-build-debug/Engine/ComponentManager/Makefile&quot;  VERBOSE=1 InnoComponentManager/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/cmake-build-debug/Engine/ComponentManager/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/cmake-build-debug/Engine/ComponentManager/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/cmake-build-debug/Engine/ComponentManager/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="InnoSceneHierarchyManager">
+				<Option output="/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/cmake-build-debug/LibArchive/libInnoSceneHierarchyManager.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/cmake-build-debug/Engine/SceneHierarchyManager"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/External/Include"/>
+					<Add directory="/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/External/GitSubmodules"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.3/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/cmake-build-debug/Engine/SceneHierarchyManager/Makefile&quot;  VERBOSE=1 InnoSceneHierarchyManager"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/cmake-build-debug/Engine/SceneHierarchyManager/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/cmake-build-debug/Engine/SceneHierarchyManager/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/cmake-build-debug/Engine/SceneHierarchyManager/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="InnoSceneHierarchyManager/fast">
+				<Option output="/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/cmake-build-debug/LibArchive/libInnoSceneHierarchyManager.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/cmake-build-debug/Engine/SceneHierarchyManager"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/External/Include"/>
+					<Add directory="/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/External/GitSubmodules"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.3/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/cmake-build-debug/Engine/SceneHierarchyManager/Makefile&quot;  VERBOSE=1 InnoSceneHierarchyManager/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/cmake-build-debug/Engine/SceneHierarchyManager/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/cmake-build-debug/Engine/SceneHierarchyManager/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/cmake-build-debug/Engine/SceneHierarchyManager/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="InnoEngine">
+				<Option output="/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/cmake-build-debug/Lib/libInnoEngine.dylib" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/cmake-build-debug/Engine/ModuleManager"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/External/Include"/>
+					<Add directory="/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/External/GitSubmodules"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.3/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/cmake-build-debug/Engine/ModuleManager/Makefile&quot;  VERBOSE=1 InnoEngine"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/cmake-build-debug/Engine/ModuleManager/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/cmake-build-debug/Engine/ModuleManager/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/cmake-build-debug/Engine/ModuleManager/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="InnoEngine/fast">
+				<Option output="/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/cmake-build-debug/Lib/libInnoEngine.dylib" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/cmake-build-debug/Engine/ModuleManager"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/External/Include"/>
+					<Add directory="/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/External/GitSubmodules"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.3/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/cmake-build-debug/Engine/ModuleManager/Makefile&quot;  VERBOSE=1 InnoEngine/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/cmake-build-debug/Engine/ModuleManager/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/cmake-build-debug/Engine/ModuleManager/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/cmake-build-debug/Engine/ModuleManager/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="InnoDefaultGPUBuffers">
+				<Option output="/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/cmake-build-debug/LibArchive/libInnoDefaultGPUBuffers.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/cmake-build-debug/Client/DefaultGPUBuffers"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/External/Include"/>
+					<Add directory="/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/External/GitSubmodules"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.3/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/cmake-build-debug/Client/DefaultGPUBuffers/Makefile&quot;  VERBOSE=1 InnoDefaultGPUBuffers"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/cmake-build-debug/Client/DefaultGPUBuffers/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/cmake-build-debug/Client/DefaultGPUBuffers/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/cmake-build-debug/Client/DefaultGPUBuffers/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="InnoDefaultGPUBuffers/fast">
+				<Option output="/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/cmake-build-debug/LibArchive/libInnoDefaultGPUBuffers.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/cmake-build-debug/Client/DefaultGPUBuffers"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/External/Include"/>
+					<Add directory="/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/External/GitSubmodules"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.3/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/cmake-build-debug/Client/DefaultGPUBuffers/Makefile&quot;  VERBOSE=1 InnoDefaultGPUBuffers/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/cmake-build-debug/Client/DefaultGPUBuffers/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/cmake-build-debug/Client/DefaultGPUBuffers/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/cmake-build-debug/Client/DefaultGPUBuffers/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="InnoDefaultRenderingClient">
+				<Option output="/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/cmake-build-debug/Lib/libInnoDefaultRenderingClient.dylib" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/cmake-build-debug/Client/RenderingClient"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/External/Include"/>
+					<Add directory="/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/External/GitSubmodules"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.3/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/cmake-build-debug/Client/RenderingClient/Makefile&quot;  VERBOSE=1 InnoDefaultRenderingClient"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/cmake-build-debug/Client/RenderingClient/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/cmake-build-debug/Client/RenderingClient/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/cmake-build-debug/Client/RenderingClient/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="InnoDefaultRenderingClient/fast">
+				<Option output="/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/cmake-build-debug/Lib/libInnoDefaultRenderingClient.dylib" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/cmake-build-debug/Client/RenderingClient"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/External/Include"/>
+					<Add directory="/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/External/GitSubmodules"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.3/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/cmake-build-debug/Client/RenderingClient/Makefile&quot;  VERBOSE=1 InnoDefaultRenderingClient/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/cmake-build-debug/Client/RenderingClient/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/cmake-build-debug/Client/RenderingClient/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/cmake-build-debug/Client/RenderingClient/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="InnoDefaultLogicClient">
+				<Option output="/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/cmake-build-debug/Lib/libInnoDefaultLogicClient.dylib" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/cmake-build-debug/Client/LogicClient"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/External/Include"/>
+					<Add directory="/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/External/GitSubmodules"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.3/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/cmake-build-debug/Client/LogicClient/Makefile&quot;  VERBOSE=1 InnoDefaultLogicClient"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/cmake-build-debug/Client/LogicClient/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/cmake-build-debug/Client/LogicClient/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/cmake-build-debug/Client/LogicClient/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="InnoDefaultLogicClient/fast">
+				<Option output="/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/cmake-build-debug/Lib/libInnoDefaultLogicClient.dylib" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/cmake-build-debug/Client/LogicClient"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/External/Include"/>
+					<Add directory="/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/External/GitSubmodules"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.3/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/cmake-build-debug/Client/LogicClient/Makefile&quot;  VERBOSE=1 InnoDefaultLogicClient/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/cmake-build-debug/Client/LogicClient/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/cmake-build-debug/Client/LogicClient/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/cmake-build-debug/Client/LogicClient/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/Client/DefaultGPUBuffers/DefaultGPUBuffers.cpp">
+			<Option target="InnoDefaultGPUBuffers"/>
+		</Unit>
+		<Unit filename="/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/Client/DefaultGPUBuffers/DefaultGPUBuffers.h">
+			<Option target="InnoDefaultGPUBuffers"/>
+		</Unit>
+		<Unit filename="/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/Client/LogicClient/DefaultLogicClient.cpp">
+			<Option target="InnoDefaultLogicClient"/>
+		</Unit>
+		<Unit filename="/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/Client/LogicClient/DefaultLogicClient.h">
+			<Option target="InnoDefaultLogicClient"/>
+		</Unit>
+		<Unit filename="/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/Client/RenderingClient/AnimationPass.cpp">
+			<Option target="InnoDefaultRenderingClient"/>
+		</Unit>
+		<Unit filename="/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/Client/RenderingClient/AnimationPass.h">
+			<Option target="InnoDefaultRenderingClient"/>
+		</Unit>
+		<Unit filename="/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/Client/RenderingClient/BRDFLUTPass.cpp">
+			<Option target="InnoDefaultRenderingClient"/>
+		</Unit>
+		<Unit filename="/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/Client/RenderingClient/BRDFLUTPass.h">
+			<Option target="InnoDefaultRenderingClient"/>
+		</Unit>
+		<Unit filename="/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/Client/RenderingClient/BSDFTestPass.cpp">
+			<Option target="InnoDefaultRenderingClient"/>
+		</Unit>
+		<Unit filename="/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/Client/RenderingClient/BSDFTestPass.h">
+			<Option target="InnoDefaultRenderingClient"/>
+		</Unit>
+		<Unit filename="/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/Client/RenderingClient/BillboardPass.cpp">
+			<Option target="InnoDefaultRenderingClient"/>
+		</Unit>
+		<Unit filename="/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/Client/RenderingClient/BillboardPass.h">
+			<Option target="InnoDefaultRenderingClient"/>
+		</Unit>
+		<Unit filename="/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/Client/RenderingClient/DebugPass.cpp">
+			<Option target="InnoDefaultRenderingClient"/>
+		</Unit>
+		<Unit filename="/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/Client/RenderingClient/DebugPass.h">
+			<Option target="InnoDefaultRenderingClient"/>
+		</Unit>
+		<Unit filename="/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/Client/RenderingClient/DefaultRenderingClient.cpp">
+			<Option target="InnoDefaultRenderingClient"/>
+		</Unit>
+		<Unit filename="/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/Client/RenderingClient/DefaultRenderingClient.h">
+			<Option target="InnoDefaultRenderingClient"/>
+		</Unit>
+		<Unit filename="/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/Client/RenderingClient/FinalBlendPass.cpp">
+			<Option target="InnoDefaultRenderingClient"/>
+		</Unit>
+		<Unit filename="/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/Client/RenderingClient/FinalBlendPass.h">
+			<Option target="InnoDefaultRenderingClient"/>
+		</Unit>
+		<Unit filename="/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/Client/RenderingClient/GIDataLoader.cpp">
+			<Option target="InnoDefaultRenderingClient"/>
+		</Unit>
+		<Unit filename="/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/Client/RenderingClient/GIDataLoader.h">
+			<Option target="InnoDefaultRenderingClient"/>
+		</Unit>
+		<Unit filename="/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/Client/RenderingClient/GIResolvePass.cpp">
+			<Option target="InnoDefaultRenderingClient"/>
+		</Unit>
+		<Unit filename="/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/Client/RenderingClient/GIResolvePass.h">
+			<Option target="InnoDefaultRenderingClient"/>
+		</Unit>
+		<Unit filename="/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/Client/RenderingClient/GIResolveTestPass.cpp">
+			<Option target="InnoDefaultRenderingClient"/>
+		</Unit>
+		<Unit filename="/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/Client/RenderingClient/GIResolveTestPass.h">
+			<Option target="InnoDefaultRenderingClient"/>
+		</Unit>
+		<Unit filename="/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/Client/RenderingClient/LightCullingPass.cpp">
+			<Option target="InnoDefaultRenderingClient"/>
+		</Unit>
+		<Unit filename="/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/Client/RenderingClient/LightCullingPass.h">
+			<Option target="InnoDefaultRenderingClient"/>
+		</Unit>
+		<Unit filename="/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/Client/RenderingClient/LightPass.cpp">
+			<Option target="InnoDefaultRenderingClient"/>
+		</Unit>
+		<Unit filename="/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/Client/RenderingClient/LightPass.h">
+			<Option target="InnoDefaultRenderingClient"/>
+		</Unit>
+		<Unit filename="/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/Client/RenderingClient/LuminanceHistogramPass.cpp">
+			<Option target="InnoDefaultRenderingClient"/>
+		</Unit>
+		<Unit filename="/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/Client/RenderingClient/LuminanceHistogramPass.h">
+			<Option target="InnoDefaultRenderingClient"/>
+		</Unit>
+		<Unit filename="/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/Client/RenderingClient/MotionBlurPass.cpp">
+			<Option target="InnoDefaultRenderingClient"/>
+		</Unit>
+		<Unit filename="/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/Client/RenderingClient/MotionBlurPass.h">
+			<Option target="InnoDefaultRenderingClient"/>
+		</Unit>
+		<Unit filename="/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/Client/RenderingClient/OpaquePass.cpp">
+			<Option target="InnoDefaultRenderingClient"/>
+		</Unit>
+		<Unit filename="/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/Client/RenderingClient/OpaquePass.h">
+			<Option target="InnoDefaultRenderingClient"/>
+		</Unit>
+		<Unit filename="/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/Client/RenderingClient/PostTAAPass.cpp">
+			<Option target="InnoDefaultRenderingClient"/>
+		</Unit>
+		<Unit filename="/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/Client/RenderingClient/PostTAAPass.h">
+			<Option target="InnoDefaultRenderingClient"/>
+		</Unit>
+		<Unit filename="/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/Client/RenderingClient/PreTAAPass.cpp">
+			<Option target="InnoDefaultRenderingClient"/>
+		</Unit>
+		<Unit filename="/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/Client/RenderingClient/PreTAAPass.h">
+			<Option target="InnoDefaultRenderingClient"/>
+		</Unit>
+		<Unit filename="/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/Client/RenderingClient/SSAOPass.cpp">
+			<Option target="InnoDefaultRenderingClient"/>
+		</Unit>
+		<Unit filename="/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/Client/RenderingClient/SSAOPass.h">
+			<Option target="InnoDefaultRenderingClient"/>
+		</Unit>
+		<Unit filename="/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/Client/RenderingClient/SkyPass.cpp">
+			<Option target="InnoDefaultRenderingClient"/>
+		</Unit>
+		<Unit filename="/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/Client/RenderingClient/SkyPass.h">
+			<Option target="InnoDefaultRenderingClient"/>
+		</Unit>
+		<Unit filename="/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/Client/RenderingClient/SunShadowPass.cpp">
+			<Option target="InnoDefaultRenderingClient"/>
+		</Unit>
+		<Unit filename="/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/Client/RenderingClient/SunShadowPass.h">
+			<Option target="InnoDefaultRenderingClient"/>
+		</Unit>
+		<Unit filename="/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/Client/RenderingClient/TAAPass.cpp">
+			<Option target="InnoDefaultRenderingClient"/>
+		</Unit>
+		<Unit filename="/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/Client/RenderingClient/TAAPass.h">
+			<Option target="InnoDefaultRenderingClient"/>
+		</Unit>
+		<Unit filename="/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/Client/RenderingClient/TransparentPass.cpp">
+			<Option target="InnoDefaultRenderingClient"/>
+		</Unit>
+		<Unit filename="/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/Client/RenderingClient/TransparentPass.h">
+			<Option target="InnoDefaultRenderingClient"/>
+		</Unit>
+		<Unit filename="/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/Client/RenderingClient/VolumetricPass.cpp">
+			<Option target="InnoDefaultRenderingClient"/>
+		</Unit>
+		<Unit filename="/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/Client/RenderingClient/VolumetricPass.h">
+			<Option target="InnoDefaultRenderingClient"/>
+		</Unit>
+		<Unit filename="/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/Client/RenderingClient/VoxelizationPass.cpp">
+			<Option target="InnoDefaultRenderingClient"/>
+		</Unit>
+		<Unit filename="/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/Client/RenderingClient/VoxelizationPass.h">
+			<Option target="InnoDefaultRenderingClient"/>
+		</Unit>
+		<Unit filename="/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/Engine/ComponentManager/CameraComponentManager.cpp">
+			<Option target="InnoComponentManager"/>
+		</Unit>
+		<Unit filename="/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/Engine/ComponentManager/CameraComponentManager.h">
+			<Option target="InnoComponentManager"/>
+		</Unit>
+		<Unit filename="/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/Engine/ComponentManager/ICameraComponentManager.h">
+			<Option target="InnoComponentManager"/>
+		</Unit>
+		<Unit filename="/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/Engine/ComponentManager/IComponentManager.h">
+			<Option target="InnoComponentManager"/>
+		</Unit>
+		<Unit filename="/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/Engine/ComponentManager/ILightComponentManager.h">
+			<Option target="InnoComponentManager"/>
+		</Unit>
+		<Unit filename="/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/Engine/ComponentManager/ITransformComponentManager.h">
+			<Option target="InnoComponentManager"/>
+		</Unit>
+		<Unit filename="/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/Engine/ComponentManager/IVisibleComponentManager.h">
+			<Option target="InnoComponentManager"/>
+		</Unit>
+		<Unit filename="/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/Engine/ComponentManager/LightComponentManager.cpp">
+			<Option target="InnoComponentManager"/>
+		</Unit>
+		<Unit filename="/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/Engine/ComponentManager/LightComponentManager.h">
+			<Option target="InnoComponentManager"/>
+		</Unit>
+		<Unit filename="/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/Engine/ComponentManager/TransformComponentManager.cpp">
+			<Option target="InnoComponentManager"/>
+		</Unit>
+		<Unit filename="/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/Engine/ComponentManager/TransformComponentManager.h">
+			<Option target="InnoComponentManager"/>
+		</Unit>
+		<Unit filename="/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/Engine/ComponentManager/VisibleComponentManager.cpp">
+			<Option target="InnoComponentManager"/>
+		</Unit>
+		<Unit filename="/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/Engine/ComponentManager/VisibleComponentManager.h">
+			<Option target="InnoComponentManager"/>
+		</Unit>
+		<Unit filename="/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/Engine/Core/IOService.cpp">
+			<Option target="InnoCore"/>
+		</Unit>
+		<Unit filename="/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/Engine/Core/IOService.h">
+			<Option target="InnoCore"/>
+		</Unit>
+		<Unit filename="/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/Engine/Core/InnoLogger.cpp">
+			<Option target="InnoCore"/>
+		</Unit>
+		<Unit filename="/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/Engine/Core/InnoLogger.h">
+			<Option target="InnoCore"/>
+		</Unit>
+		<Unit filename="/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/Engine/Core/InnoMemory.cpp">
+			<Option target="InnoCore"/>
+		</Unit>
+		<Unit filename="/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/Engine/Core/InnoMemory.h">
+			<Option target="InnoCore"/>
+		</Unit>
+		<Unit filename="/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/Engine/Core/InnoRandomizer.cpp">
+			<Option target="InnoCore"/>
+		</Unit>
+		<Unit filename="/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/Engine/Core/InnoRandomizer.h">
+			<Option target="InnoCore"/>
+		</Unit>
+		<Unit filename="/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/Engine/Core/InnoTaskScheduler.cpp">
+			<Option target="InnoCore"/>
+		</Unit>
+		<Unit filename="/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/Engine/Core/InnoTaskScheduler.h">
+			<Option target="InnoCore"/>
+		</Unit>
+		<Unit filename="/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/Engine/Core/InnoTimer.cpp">
+			<Option target="InnoCore"/>
+		</Unit>
+		<Unit filename="/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/Engine/Core/InnoTimer.h">
+			<Option target="InnoCore"/>
+		</Unit>
+		<Unit filename="/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/Engine/EntityManager/EntityManager.cpp">
+			<Option target="InnoEntityManager"/>
+		</Unit>
+		<Unit filename="/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/Engine/EntityManager/EntityManager.h">
+			<Option target="InnoEntityManager"/>
+		</Unit>
+		<Unit filename="/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/Engine/EntityManager/IEntityManager.h">
+			<Option target="InnoEntityManager"/>
+		</Unit>
+		<Unit filename="/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/Engine/ModuleManager/ModuleManager.cpp">
+			<Option target="InnoEngine"/>
+		</Unit>
+		<Unit filename="/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/Engine/ModuleManager/ModuleManager.h">
+			<Option target="InnoEngine"/>
+		</Unit>
+		<Unit filename="/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/Engine/RayTracer/IRayTracer.h">
+			<Option target="InnoRayTracer"/>
+		</Unit>
+		<Unit filename="/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/Engine/RayTracer/RayTracer.cpp">
+			<Option target="InnoRayTracer"/>
+		</Unit>
+		<Unit filename="/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/Engine/RayTracer/RayTracer.h">
+			<Option target="InnoRayTracer"/>
+		</Unit>
+		<Unit filename="/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/Engine/RenderingFrontend/GUISystem.cpp">
+			<Option target="InnoRenderingFrontend"/>
+		</Unit>
+		<Unit filename="/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/Engine/RenderingFrontend/GUISystem.h">
+			<Option target="InnoRenderingFrontend"/>
+		</Unit>
+		<Unit filename="/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/Engine/RenderingFrontend/IGUISystem.h">
+			<Option target="InnoRenderingFrontend"/>
+		</Unit>
+		<Unit filename="/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/Engine/RenderingFrontend/IRenderingFrontend.h">
+			<Option target="InnoRenderingFrontend"/>
+		</Unit>
+		<Unit filename="/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/Engine/RenderingFrontend/RenderingFrontend.cpp">
+			<Option target="InnoRenderingFrontend"/>
+		</Unit>
+		<Unit filename="/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/Engine/RenderingFrontend/RenderingFrontend.h">
+			<Option target="InnoRenderingFrontend"/>
+		</Unit>
+		<Unit filename="/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/Engine/RenderingServer/MT/MTRenderingServer.cpp">
+			<Option target="InnoMTRenderingServer"/>
+		</Unit>
+		<Unit filename="/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/Engine/RenderingServer/MT/MTRenderingServer.h">
+			<Option target="InnoMTRenderingServer"/>
+		</Unit>
+		<Unit filename="/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/Engine/RenderingServer/MT/MTRenderingServerBridge.h">
+			<Option target="InnoMTRenderingServer"/>
+		</Unit>
+		<Unit filename="/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/Engine/SceneHierarchyManager/ISceneHierarchyManager.h">
+			<Option target="InnoSceneHierarchyManager"/>
+		</Unit>
+		<Unit filename="/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/Engine/SceneHierarchyManager/SceneHierarchyManager.cpp">
+			<Option target="InnoSceneHierarchyManager"/>
+		</Unit>
+		<Unit filename="/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/Engine/SceneHierarchyManager/SceneHierarchyManager.h">
+			<Option target="InnoSceneHierarchyManager"/>
+		</Unit>
+		<Unit filename="/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/Engine/SubSystem/AssetSystem.cpp">
+			<Option target="InnoSubSystem"/>
+		</Unit>
+		<Unit filename="/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/Engine/SubSystem/AssetSystem.h">
+			<Option target="InnoSubSystem"/>
+		</Unit>
+		<Unit filename="/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/Engine/SubSystem/EventSystem.cpp">
+			<Option target="InnoSubSystem"/>
+		</Unit>
+		<Unit filename="/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/Engine/SubSystem/EventSystem.h">
+			<Option target="InnoSubSystem"/>
+		</Unit>
+		<Unit filename="/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/Engine/SubSystem/FileSystem.cpp">
+			<Option target="InnoSubSystem"/>
+		</Unit>
+		<Unit filename="/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/Engine/SubSystem/FileSystem.h">
+			<Option target="InnoSubSystem"/>
+		</Unit>
+		<Unit filename="/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/Engine/SubSystem/LogHelper.h">
+			<Option target="InnoSubSystem"/>
+		</Unit>
+		<Unit filename="/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/Engine/SubSystem/LogSystem.cpp">
+			<Option target="InnoSubSystem"/>
+		</Unit>
+		<Unit filename="/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/Engine/SubSystem/LogSystem.h">
+			<Option target="InnoSubSystem"/>
+		</Unit>
+		<Unit filename="/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/Engine/SubSystem/MemorySystem.cpp">
+			<Option target="InnoSubSystem"/>
+		</Unit>
+		<Unit filename="/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/Engine/SubSystem/MemorySystem.h">
+			<Option target="InnoSubSystem"/>
+		</Unit>
+		<Unit filename="/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/Engine/SubSystem/PhysicsSystem.cpp">
+			<Option target="InnoSubSystem"/>
+		</Unit>
+		<Unit filename="/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/Engine/SubSystem/PhysicsSystem.h">
+			<Option target="InnoSubSystem"/>
+		</Unit>
+		<Unit filename="/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/Engine/SubSystem/TaskSystem.cpp">
+			<Option target="InnoSubSystem"/>
+		</Unit>
+		<Unit filename="/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/Engine/SubSystem/TaskSystem.h">
+			<Option target="InnoSubSystem"/>
+		</Unit>
+		<Unit filename="/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/Engine/SubSystem/TestSystem.cpp">
+			<Option target="InnoSubSystem"/>
+		</Unit>
+		<Unit filename="/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/Engine/SubSystem/TestSystem.h">
+			<Option target="InnoSubSystem"/>
+		</Unit>
+		<Unit filename="/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/Engine/SubSystem/TimeSystem.cpp">
+			<Option target="InnoSubSystem"/>
+		</Unit>
+		<Unit filename="/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/Engine/SubSystem/TimeSystem.h">
+			<Option target="InnoSubSystem"/>
+		</Unit>
+		<Unit filename="/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/Engine/ThirdParty/AssimpWrapper/AssimpWrapper.cpp">
+			<Option target="AssimpWrapper"/>
+		</Unit>
+		<Unit filename="/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/Engine/ThirdParty/AssimpWrapper/AssimpWrapper.h">
+			<Option target="AssimpWrapper"/>
+		</Unit>
+		<Unit filename="/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/Engine/ThirdParty/ImGui/imgui.cpp">
+			<Option target="ImGui"/>
+		</Unit>
+		<Unit filename="/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/Engine/ThirdParty/ImGui/imgui.h">
+			<Option target="ImGui"/>
+		</Unit>
+		<Unit filename="/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/Engine/ThirdParty/ImGui/imgui_demo.cpp">
+			<Option target="ImGui"/>
+		</Unit>
+		<Unit filename="/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/Engine/ThirdParty/ImGui/imgui_draw.cpp">
+			<Option target="ImGui"/>
+		</Unit>
+		<Unit filename="/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/Engine/ThirdParty/ImGui/imgui_widgets.cpp">
+			<Option target="ImGui"/>
+		</Unit>
+		<Unit filename="/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/Engine/ThirdParty/ImGuiWrapper/ImGuiRendererMT.cpp">
+			<Option target="ImGuiRendererMT"/>
+		</Unit>
+		<Unit filename="/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/Engine/ThirdParty/ImGuiWrapper/ImGuiRendererMT.h">
+			<Option target="ImGuiRendererMT"/>
+		</Unit>
+		<Unit filename="/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/Engine/ThirdParty/ImGuiWrapper/ImGuiWrapper.cpp">
+			<Option target="ImGuiWrapper"/>
+		</Unit>
+		<Unit filename="/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/Engine/ThirdParty/ImGuiWrapper/ImGuiWrapper.h">
+			<Option target="ImGuiWrapper"/>
+		</Unit>
+		<Unit filename="/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/Engine/ThirdParty/JSONWrapper/JSONWrapper.cpp">
+			<Option target="JSONWrapper"/>
+		</Unit>
+		<Unit filename="/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/Engine/ThirdParty/JSONWrapper/JSONWrapper.h">
+			<Option target="JSONWrapper"/>
+		</Unit>
+		<Unit filename="/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/Engine/ThirdParty/STBWrapper/STBWrapper.cpp">
+			<Option target="STBWrapper"/>
+		</Unit>
+		<Unit filename="/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/Engine/ThirdParty/STBWrapper/STBWrapper.h">
+			<Option target="STBWrapper"/>
+		</Unit>
+		<Unit filename="/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/Engine/ThirdParty/STBWrapper/stb_image.cpp">
+			<Option target="STBWrapper"/>
+		</Unit>
+		<Unit filename="/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/Engine/ThirdParty/STBWrapper/stb_image_write.cpp">
+			<Option target="STBWrapper"/>
+		</Unit>
+		<Unit filename="/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/Test/InnoTest.cpp">
+			<Option target="InnoTest"/>
+		</Unit>
+		<Unit filename="/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/Engine/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Engine\"/>
+		</Unit>
+		<Unit filename="/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/Engine/Common/Config.h.in">
+			<Option virtualFolder="CMake Files\Engine\Common\"/>
+		</Unit>
+		<Unit filename="/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/Engine/ThirdParty/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Engine\ThirdParty\"/>
+		</Unit>
+		<Unit filename="/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/Engine/ThirdParty/JSONWrapper/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Engine\ThirdParty\JSONWrapper\"/>
+		</Unit>
+		<Unit filename="/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/Engine/ThirdParty/AssimpWrapper/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Engine\ThirdParty\AssimpWrapper\"/>
+		</Unit>
+		<Unit filename="/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/Engine/ThirdParty/STBWrapper/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Engine\ThirdParty\STBWrapper\"/>
+		</Unit>
+		<Unit filename="/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/Engine/ThirdParty/ImGui/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Engine\ThirdParty\ImGui\"/>
+		</Unit>
+		<Unit filename="/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/Engine/ThirdParty/ImGuiWrapper/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Engine\ThirdParty\ImGuiWrapper\"/>
+		</Unit>
+		<Unit filename="/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/Engine/Core/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Engine\Core\"/>
+		</Unit>
+		<Unit filename="/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/Engine/SubSystem/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Engine\SubSystem\"/>
+		</Unit>
+		<Unit filename="/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/Engine/RenderingFrontend/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Engine\RenderingFrontend\"/>
+		</Unit>
+		<Unit filename="/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/Engine/RenderingServer/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Engine\RenderingServer\"/>
+		</Unit>
+		<Unit filename="/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/Engine/RenderingServer/MT/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Engine\RenderingServer\MT\"/>
+		</Unit>
+		<Unit filename="/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/Engine/RayTracer/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Engine\RayTracer\"/>
+		</Unit>
+		<Unit filename="/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/Engine/EntityManager/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Engine\EntityManager\"/>
+		</Unit>
+		<Unit filename="/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/Engine/ComponentManager/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Engine\ComponentManager\"/>
+		</Unit>
+		<Unit filename="/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/Engine/SceneHierarchyManager/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Engine\SceneHierarchyManager\"/>
+		</Unit>
+		<Unit filename="/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/Engine/ModuleManager/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Engine\ModuleManager\"/>
+		</Unit>
+		<Unit filename="/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/Test/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Test\"/>
+		</Unit>
+		<Unit filename="/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/Client/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Client\"/>
+		</Unit>
+		<Unit filename="/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/Client/ClientMetadata.h.in">
+			<Option virtualFolder="CMake Files\Client\"/>
+		</Unit>
+		<Unit filename="/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/Client/DefaultGPUBuffers/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Client\DefaultGPUBuffers\"/>
+		</Unit>
+		<Unit filename="/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/Client/RenderingClient/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Client\RenderingClient\"/>
+		</Unit>
+		<Unit filename="/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/Client/LogicClient/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Client\LogicClient\"/>
+		</Unit>
+		<Unit filename="/Volumes/Extreme/Projects/Personal/GameEngineResources/innocence_engine/InnocenceEngine/Source/Client/Tool/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Client\Tool\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

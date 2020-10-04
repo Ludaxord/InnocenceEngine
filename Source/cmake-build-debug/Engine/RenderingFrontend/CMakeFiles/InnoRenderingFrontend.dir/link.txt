@@ -1,0 +1,2 @@
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ar qc ../../LibArchive/libInnoRenderingFrontend.a  CMakeFiles/InnoRenderingFrontend.dir/GUISystem.cpp.o CMakeFiles/InnoRenderingFrontend.dir/RenderingFrontend.cpp.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ranlib ../../LibArchive/libInnoRenderingFrontend.a

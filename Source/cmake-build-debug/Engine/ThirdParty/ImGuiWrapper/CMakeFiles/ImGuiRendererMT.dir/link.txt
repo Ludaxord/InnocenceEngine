@@ -1,0 +1,2 @@
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ar qc ../../../LibArchive/libImGuiRendererMT.a  CMakeFiles/ImGuiRendererMT.dir/ImGuiRendererMT.cpp.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ranlib ../../../LibArchive/libImGuiRendererMT.a

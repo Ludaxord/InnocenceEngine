@@ -1,0 +1,2 @@
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ar qc ../../LibArchive/libInnoSceneHierarchyManager.a  CMakeFiles/InnoSceneHierarchyManager.dir/SceneHierarchyManager.cpp.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ranlib ../../LibArchive/libInnoSceneHierarchyManager.a
